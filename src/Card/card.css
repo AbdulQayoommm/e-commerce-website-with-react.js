@@ -1,0 +1,12 @@
+.image{
+    height: 200px;
+    margin-left: 100px;
+}
+.button{
+    width: 200px;
+    text-align: center;
+    /* margin-left: 100px; */
+}
+.cardimage{
+    margin: 30px;
+}
