@@ -1,5 +1,6 @@
 import React from 'react';
-import NavBar from '../../Component/Navbar/AppBar'
+import NavBar from '../../Component/Navbar/AppBar';
+import Contactus from './contactus'
 export default class Contact extends React.Component {
 
     constructor() {
@@ -21,7 +22,8 @@ export default class Contact extends React.Component {
         return (
             <div>
                 <NavBar cart={this.state.myCart} />
-                <h1>Contact Page</h1>
+                <Contactus />
+                {/* <h1>Contact Page</h1> */}
             </div>
         )
     }

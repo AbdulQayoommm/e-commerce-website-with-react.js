@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Home, Shop, Login, Signup, About, Contact, Cart, ViewCart, AdminPanel, Addtocart, Drawer, CheckOut } from '../../Container'
-import Product from '../../Container/product'
+// import Product from '../../Container/product'
 
 
 export default class Router1 extends React.Component {

@@ -3,7 +3,7 @@ import OutlinedTextFields from './AdminHome'
 import Drawer from './drawer'
 import firebase from '../../Config/DataBase/firebase'
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-import { async } from 'q'
+// import { async } from 'q'
 
 export default class AddtoCart extends React.Component {
     constructor() {
